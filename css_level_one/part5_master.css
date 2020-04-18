@@ -1,0 +1,13 @@
+/* ***hierachy*** */
+
+li{
+    color: red;
+}
+
+.topItems{
+    color: royalblue;
+}
+
+#two{
+    border: 5px solid black;
+}
