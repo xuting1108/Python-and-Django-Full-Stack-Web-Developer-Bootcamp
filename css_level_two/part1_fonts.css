@@ -1,0 +1,27 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* using google fonts */
+p{
+    font-family: 'Bangers', cursive;
+}
+
+body{
+    font-size: 20px;
+}
+
+/* for default fonts 1em = 16px */
+
+#two{
+    font-size: 2.0em;
+}
+
+p{
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
