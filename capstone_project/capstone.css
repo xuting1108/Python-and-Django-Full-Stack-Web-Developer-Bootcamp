@@ -1,0 +1,27 @@
+.content{
+    background-color: #0c2340;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+p{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.form{
+
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+
+}
+
+#button{
+    border: orange 50px solid;
+    border-radius: 40%;
+    color: black;
+}
