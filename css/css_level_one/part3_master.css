@@ -1,0 +1,36 @@
+/* use "." when use class and "#" for id's */
+
+.firstDiv{
+    color: red;
+}
+
+.secondDiv{
+    color: blue;
+}
+
+#unique{
+    color: purple;
+    text-decoration: line-through;
+}
+
+/* "*" is not usual, override all classes except id's*/
+
+/* *{
+    color: black;
+} */
+
+h3 + ul{
+    border: 4px dotted purple;
+}
+
+/* all the "a" inside of a list */
+
+li a{
+    color: green;
+}
+
+/* especific "a" inside of a list */
+li a[href="https://github.com/xuting1108"]{
+    color: grey;
+    border: 5px solid orange;
+}
