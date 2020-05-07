@@ -45,7 +45,6 @@ function monkeyTrouble(aSmile, bSmile) {
   return (aSmile && bSmile) || (!aSmile && !bSmile);
 }
 
-
 //
 // PROBLEM 3: STRING TIMES
 //
@@ -109,7 +108,17 @@ function luckySum(a, b, c){
 // caught_speeding(65, true) → 0
 
 function caught_speeding(speed, is_birthday){
-  //Code Goes Here
+  if(is_birthday){
+    speed -= 5
+  }
+  if(speed <= 60){
+      return 0
+  }
+  // Optional: (60 < speed && speed <=80)
+  if(60 < speed <= 80){
+    return 1
+  }
+  return 2
 }
 
 
@@ -127,5 +136,6 @@ function caught_speeding(speed, is_birthday){
 // makeBricks(3, 2, 10) → true
 
 function makeBricks(small, big, goal){
-  //Code Goes Here
-}
+  return goal%5 >= 0 && goal%5 - small <= 0 && small + 5*big >= goal
+  }
+
